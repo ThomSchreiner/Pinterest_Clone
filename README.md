@@ -1,3 +1,3 @@
-##Link do projeto
+Link do projeto
 
 https://thomschreiner.github.io/Pinterest_Clone
