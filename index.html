@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="src/icones/favicon_Pinterest.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="src/css/style.css">
+        <script defer src="src/js/data.js"></script>
+        <script defer src="src/js/script.js"></script>
+        <title>Pinterest</title>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-menu">
+                <button>
+                   <img src="src/icones/favicon_Pinterest.png" alt="Icone Pinterest">
+                </button>
+                <button class="btn-atual">Página inicial</button>
+                <button>Hoje</button>
+                <select>
+                    <option selected hidden disabled value="">Criar</option>
+                    <option value="">Criar Idea Pin</option>
+                    <option value="">Criar Pin</option>
+                </select>
+            </nav>
+            <div class="div-pesquisa">
+                <img src="src/icones/lupa.svg">
+                <input type="text" placeholder="Pesqusiar">
+            </div>
+            <nav class="nav-usuario">
+                <button>
+                    <img src="src/icones/notificacoes.svg" alt="notificacoes">
+                </button>
+                <button>
+                    <img src="src/icones/mensagens.svg" alt="mensagens">
+                </button>
+                <button class="btn-span">
+                    <span>T</span>
+                </button>
+                <select>
+                    <option selected hidden disabled value=""></option>
+                    <optgroup>
+                        <option disabled value="">Atualmente em</option>
+                        <option value="">T</option>
+                        <option value="">Thomas Schreiner</option>
+                        <option value="">Pessoal</option>
+                        <option value="">jinx_sempre@hotmail.com</option>
+                    </optgroup>
+                    <optgroup>
+                        <option disabled value="">Suas contas</option>
+                        <option value="">Adicionar conta</option>
+                        <option value="">Converter em conta business</option>
+                    </optgroup>
+                    <optgroup>
+                        <option disabled value="">Mais opções</option>
+                        <option value="">Configurações</option>
+                        <option value="">Ajustar seu feed inicial</option>
+                        <option value="">Instalar o aplicativo Windows</option>
+                        <option value="">Obter ajuda</option>
+                        <option value="">Ver os termos de uso e privacidade</option>
+                        <option value="">Sair</option>
+                    </optgroup>
+                </select>
+            </nav>
+        </header>
+        <main>
+            <ul class="vitrine">
+            </ul>
+        </main>
+    </body>
+</html>
